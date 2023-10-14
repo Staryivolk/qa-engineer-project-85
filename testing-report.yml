@@ -1,8 +1,84 @@
 ---
 - summary: |
-    Проверка на корректное отображение основных элементов страниц сайта
+    Регистрация пользователя
   status: pass
 
 - summary: |
-    Проверка регистрации нового пользователя
+    Отображение ошибки при введении некорректного логина
+  status: pass
+
+- summary: |
+   Отображение ошибки при регистрации и введении некорректного Email
+  status: pass
+
+- summary: |
+   Ошибка при введении некорректного Password
+  status: pass
+  
+- summary: |
+   Вход под своим логином и паролем
+  status: pass
+    
+- summary: |
+   Ошибка при вводе неправильного Email
+  status: pass
+      
+- summary: |
+   Ошибка при вводе неправильного Password
+  status: pass
+        
+- summary: |
+   Проверка функции восстановления пароля
+  status: pass
+          
+- summary: |
+   Восстановления пароля с некорректной почтой
+  status: pass
+            
+- summary: |
+   Создание игры против другого игрока
+  status: pass
+              
+- summary: |
+   Создание игры против бота
+  status: pass
+                
+- summary: |
+   Создание игры против друга
+  status: pass
+                  
+- summary: |
+   Подключение к существующим играм 
+  status: pass
+                    
+- summary: |
+   Возможность отправить сообщение в чат на главной странице сайта
+  status: pass
+                      
+- summary: |
+   Выбор языка программирования
+  status: pass
+                        
+- summary: |
+   Выбор языка програмирования (JavaScript, PHP, Python и Ruby)
+  status: pass
+                          
+- summary: |
+   Проверка кода на правильность решения
+  status: pass
+                            
+- summary: |
+   Проверка возможности открыть лист рейтинга
+  status: pass
+                              
+- summary: |
+   Работа сайта в браузере Chrome последней версии
+  status: pass
+                                
+- summary: |
+   Работа сайта в браузере Opera последней версии
+  status: pass
+                                  
+- summary: |
+   Работа сайта в браузере Firefox последней версии
   status: pass
