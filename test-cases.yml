@@ -327,7 +327,7 @@
     - Нажать "COMPLETED GAMES"
     - Нажать "CREATE A GAME"
     - В окне выбрать "With a bot"
-    - Нажать "Create a game"
+    - Нажать "Create a battle"
   expected-result: |
     Все кнопки нажимаются,сайт правильно отображает элементы
 - summary: |
