@@ -70,7 +70,11 @@
 - summary: |
    Проверка возможности открыть лист рейтинга
   status: pass
-                              
+                                  
+- summary: |
+   Работа мобильной версии
+  status: fail
+
 - summary: |
    Работа сайта в браузере Chrome последней версии
   status: pass
