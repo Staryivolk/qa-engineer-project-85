@@ -44,11 +44,15 @@
   status: pass
                 
 - summary: |
-   Создание игры против друга
+   Отправка приглашения к игре другу
+  status: pass
+
+- summary: |
+  Проверка функции принятия приглашения в игру
   status: pass
                   
 - summary: |
-   Подключение к существующим играм 
+   Подключение к игре в турнире
   status: pass
                     
 - summary: |
@@ -57,14 +61,26 @@
                       
 - summary: |
    Выбор языка программирования
-  status: pass
-                        
-- summary: |
-   Выбор языка програмирования (JavaScript, PHP, Python и Ruby)
-  status: pass
+  status: pass                        
                           
 - summary: |
    Проверка кода на правильность решения
+  status: pass
+
+- summary: |
+   Проверка кода на неправильность решения
+  status: pass
+
+- summary: |
+   Возможность сдаться во время игры
+  status: pass
+
+- summary: |
+   Проверка завершения игры с победой
+  status: pass
+
+- summary: |
+   Проверка завершения игры с поражением
   status: pass
                             
 - summary: |
