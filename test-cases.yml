@@ -264,25 +264,7 @@
     - В поле "Language" выбираем любой язык программирования
   expected-result: |
     В поле редактора меняется язык программирования
-    
-- summary: |
-    Выбор языка програмирования (JavaScript, PHP, Python и Ruby)
-  requirement: |
-    Возможность выбора языка программирования (JavaScript, PHP, Python и Ruby).
-  prerequisites: >
-    Авторизоваться на сайте
-    (https://codebattle.hexlet.io/session/new?locale=en&next=%2F)
-  test-data: |
-    Email = testhexlet2155@yandex.ru Password = Test123
-  steps:
-    - Нажать "Create a game"
-    - Выбрать "With a bot"
-    - Нажать "Create a game"
-    - Нажать стрелочку в поле "Language"
-    - Выбрать любой язык
-  expected-result: |
-    Выдает список доступных языков таких как JavaScript, PHP, Python и Ruby
-    
+        
 - summary: |
     Проверка кода на правильность решения
   requirement: |
