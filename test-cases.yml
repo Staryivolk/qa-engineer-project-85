@@ -312,7 +312,40 @@
     - Вводим решение задачи
     - Нажимаем "Check solution"
   expected-result: |
-    Проверка кода прошла, получено сообщение о правильном решении задачи
+    Проверка кода прошла, получено сообщение о правильном решении задачи (success)
+
+    - summary: |
+    Проверка кода на неправильность решения
+  requirement: |
+    Возможность проверить правильность решения в процессе игры
+  prerequisites: |
+    Пользователь авторизован
+    Открыта главная страница сайта https://codebattle.hexlet.io/
+    Создана игра
+  test-data: >
+    Email = testhexlet2155@yandex.ru Password = Test123
+
+    Параметры игры: level = 1, game type = with a bot, time control = 8 min, chose task = rect_area
+
+    Решение задачи: 
+
+    const _ = require("lodash");
+
+    const R = require("rambda");
+
+    const solution = (width, length) => {
+
+    return width;
+
+    };
+
+    module.exports = solution;
+  steps:
+    - Выбираем язык Node JS
+    - Вводим решение задачи
+    - Нажимаем "Check solution"
+  expected-result: |
+    Проверка кода не прошла, получено сообщение о не правильном решении задачи (Test failed)
 
 - summary: |
     Возможность сдаться во время игры
