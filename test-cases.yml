@@ -215,6 +215,22 @@
     - Нажать кнопку "Create invite"
   expected-result: |
     Сообщение об отправленном приглашении другу
+
+- summary: |
+    Проверка функции принятия приглашения в игру
+  requirement: |
+    Должно быть принято приглашение и игра запустится
+  prerequisites: |
+    Пользователь авторизован 
+    Открыта главная страница сайта https://codebattle.hexlet.io/
+    Получено приглашение на игру от другого пользователя
+  test-data: |
+    Email = testhexlet2155@yandex.ru Password = Test123
+  steps:
+    - Нажать на кнопку "Invites"
+    - Нажать кнопку "Accept"
+  expected-result: |
+    Игра запущена
     
 - summary: |
     Подключение к игре в турнире
