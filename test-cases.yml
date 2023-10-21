@@ -313,6 +313,22 @@
     - Нажимаем "Check solution"
   expected-result: |
     Проверка кода прошла, получено сообщение о правильном решении задачи
+
+- summary: |
+    Возможность сдаться во время игры
+  requirement: |
+    Пользователь имеет возможность сдаться во время игры
+  prerequisites: |
+    Пользователь авторизован
+    Открыта главная страница сайта https://codebattle.hexlet.io/
+    Создана игра
+  test-data: |
+    Email = testhexlet2155@yandex.ru Password = Test123
+    Параметры игры: level = 1, game type = with a bot, time control = 8 min, chose task = rect_area
+  steps:
+    - Нажимаем "Give Up"
+  expected-result: |
+    Сообщение о проигрыше игра завершена
     
 - summary: |
     Проверка возможности открыть лист рейтинга
